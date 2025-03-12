@@ -4,15 +4,15 @@
 #
 
 # Paths
-CTCONFDIR="/etc/pve/nodes/proxmox2/lxc"
+CTCONFDIR="/etc/pve/nodes/proxmox2/lxc"         #CHANGE  proxmox 2 for your own proxmox name
 VMCONFDIR="/etc/pve/nodes/proxmox2/qemu-server"
 TMP_FILE="/tmp/vf_add_maddr.tmp"
 MAC_DB_FILE="/etc/vf_mac_db.conf"  # File to store static MAC addresses for VFs
 LOGFILE="/var/log/vf_add_maddr.log"
 
 # **Define the Correct SFP+ 10Gb Interface**
-IFBRIDGE="enp4s0f1"  #  enp4s0f1 (10Gb SFP+)
-LBRIDGE="vmbr1"      # 10Gb LAN Bridge
+IFBRIDGE="enp4s0f1"  #  enp4s0f1 (10Gb SFP+) #CHANGE this to your own physical interface
+LBRIDGE="vmbr1"      # 10Gb LAN Bridge       #CHANGE this to your own bridge interface
 
 # Colors
 C_RED='\e[0;31m'
