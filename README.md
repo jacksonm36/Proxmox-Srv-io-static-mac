@@ -7,5 +7,5 @@ for community purposes i will leave the original proxmox forum link here just so
 https://forum.proxmox.com/threads/communication-issue-between-sriov-vm-vf-and-ct-on-pf-bridge.68638/
  also will leave here the reddit post i made.
 https://www.reddit.com/r/Proxmox/comments/1j8nb4y/comment/mhd6rv6/?context=3
-Huge shout out to the people whole helped me and answered my questions from different forums.
+Huge shout out to jchrnic from reddit who helped me and answered my questions.
 
